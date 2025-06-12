@@ -10,7 +10,7 @@ const applyRoutes = require('../routes/applyRoutes');
 const app = express();
 
 // DB Connection
-mongoose.connect('mongodb+srv://nihaarshad5:r6eH4cYY4ZdOprgl@cluster0.o8bu9nt.mongodb.net/', {
+mongoose.connect('mongodb+srv://nihaarshad5:2021cs613@cluster0.o8bu9nt.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => console.log("MongoDB connected"))
